@@ -4,16 +4,23 @@
     box-sizing: border-box;
     font-size: 12px;
 }
+header{
+    margin: 40px 0;
+}
+header h1{
+    margin-bottom: 40px;
+}
+header div{
+    text-align: center;
 
+}
 #griglia{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
-    text-align: center;
-    align-items: center;
 }
 
 .quadrato{
@@ -21,7 +28,12 @@
     width: calc( 100% / 10 );
     aspect-ratio: 1/1;
 }
- 
-.active{
+.bomba{
+    background-color: lightcoral;
+    border: 4px dashed yellow;
+}
+
+.salvo{
     background-color: rgb(111, 150, 234);
+    border: inset 2px black;
 }
